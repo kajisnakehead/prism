@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Jangan indeks file komponen (agar tidak dianggap konten duplikat/sampah)
+Disallow: /header.html
+Disallow: /footer.html
+Disallow: /head.html
+Disallow: /about-summary.html
+
+# Beritahu lokasi sitemap
+Sitemap: https://megabigo.space/sitemap.xml
